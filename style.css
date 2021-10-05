@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(228, 222, 222);
+    padding: 0;
+    margin: 0 20%;
+}
+
+/* *{
+    box-sizing: border-box;
+} */
+#parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+  }
+
+img{
+    display:block;
+    margin:auto;
+    text-align: center;
+    margin: 0;
+}
+
+h3{
+    margin-left: 7px;
+}
+
+p{
+    font-size: 12px;
+    margin-left: 7px;
+}
+
+.child{
+    height: 270px;
+    width: 100%;
+    background-color: white;
+}
+
+.child1{
+
+}
+.child2{
+
+
+}
+.child3{
+
+
+}
+.child4{
+
+}
+.child5{
+
+
+}
+
+
